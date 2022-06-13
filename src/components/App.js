@@ -16,10 +16,6 @@ function App() {
   const [state, dispatch] = useReducer(reducer, initialState);
   console.log(state);
 
-  // const eventHandler(num)  {
-  //   dispatch(applyNumber);
-  // }
-
   return (
     <div className="App">
       <nav className="navbar navbar-dark bg-dark">
